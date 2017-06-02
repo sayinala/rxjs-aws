@@ -147,8 +147,8 @@ class Startup {
                 return params;
             });
         return listBuckets()
-            .map(x => {
-                return x.Buckets;
+            .map(result => {
+                return result.Buckets;
             })
             .flatMap(bucket => {
                 return bucket;
