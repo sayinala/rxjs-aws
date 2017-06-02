@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "outDir": "dist/",
+        "types": [
+            "aws-sdk",
+            "node",
+            "rxjs"
+        ],
+        "lib": [
+            "dom",
+            "es2015"
+        ],
+        "typeRoots": [
+            "node_modules/"
+        ]
+    }
+}
